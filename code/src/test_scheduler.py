@@ -1,5 +1,19 @@
 # test_scheduler.py
 
+compatibility_tests = [
+    ("J1", "P1", True),
+    ("J1", "P2", False),
+    ("J3", "P3", True),
+    ("J3", "P1", False),
+    ("J6", "P4", False),
+    ("J7", "P2", True),
+    ("J8", "P2", False),
+    ("J9", "P1", False),
+    ("J10", "P1", False),
+    ("J10", "P3", True),
+]
+
+
 test_struct = {
     "printers": [
         {

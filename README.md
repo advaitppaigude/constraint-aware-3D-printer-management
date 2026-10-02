@@ -46,7 +46,7 @@ ICRS already has an established access-control workflow based around:
 
 ICRS also operates on a first-come-first-served basis, with a strict no-coursework rule.
 
-Because of this, the rewrite does **not** attempt to replace authentication, induction checks or printer access control. It focuses only on the scheduling problem that may still be useful on top of the existing setup.
+Because of this, the rewrite does **not** attempt to replace authentication, user priority levels, induction checks or printer access control. It focuses only on the scheduling problem that may still be useful on top of the existing setup.
 
 ## Rewrite goals
 
